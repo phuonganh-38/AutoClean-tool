@@ -5,3 +5,5 @@ fuzzywuzzy
 python-Levenshtein
 plotly
 scikit-learn
+openpyxl
+xlrd
