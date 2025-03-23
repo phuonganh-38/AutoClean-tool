@@ -18,12 +18,14 @@
 
 ✨ *Intelligent Number Extraction* – Extracts numeric values from messy text columns.
 <div align="center">
-| Messy text    |Extracted number| 
-|---------------|------|
-| 400 dollars   | 400  |
-| $380 per week | 380  |
-| 200pw CHEAP   | 200  |
-| only 450$     | 450  |
+  
+| Messy text    | Extracted number |  
+|--------------|-----------------|  
+| 400 dollars  | 400             |  
+| $380 per week | 380            |  
+| 200pw CHEAP  | 200             |  
+| only 450$    | 450             | 
+  
 </div>
 
 ✨ *Year Extraction*
