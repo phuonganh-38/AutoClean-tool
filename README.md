@@ -75,26 +75,20 @@ By leveraging **smart imputation techniques**, AutoClean AI enhances data qualit
 ### ✨ *Outlier Detection* – Detect and removes anomalies using Isolation Forest model
 This tool employs **Isolation Forest**, an **unsupervised Machine Learning algorithm** specifically designed for **highly accurate and efficient outlier detection**. Unlike traditional methods like **Z-score, IQR, or Standard Deviation**, which rely on predefined statistical thresholds, **Isolation Forest intelligently isolates anomalies by learning patterns from the data itself**
 
-**How it works?*
-| **Step** | **Process** | **Why It’s Powerful?** |
+**How it works?**
+| **Step** | **Process** | **Why it’s powerful?** |
 |---------|------------|------------------------|
-| 📊 **Detect Outliers** | **Isolation Forest** is trained on all numerical columns, learning the underlying structure of the data. | Instead of setting arbitrary thresholds, the model *learns* what constitutes an anomaly. |
-| 🔎 **Assign Anomaly Score** | Each data point receives a score based on how easy it is to isolate. | Outliers are detected **without assumptions about normal distribution**. |
-| 🗑 **Remove Outliers** | Points classified as anomalies (approx. **5% of the dataset**) are removed. | More precise than traditional methods, which often misclassify valid data. |
+| **Detect Outliers** | **Isolation Forest** is trained on all numerical columns, learning the underlying structure of the data. | Instead of setting arbitrary thresholds, the model *learns* what constitutes an anomaly. |
+| **Assign Anomaly Score** | Each data point receives a score based on how easy it is to isolate. | Outliers are detected **without assumptions about normal distribution**. |
+| **Remove Outliers** | Points classified as anomalies (approx. **5% of the dataset**) are removed. | More precise than traditional methods, which often misclassify valid data. |
 
 ---
 
-### ⚖ **Comparison with Standard Methods**
-| **Method** | **How It Works** | **Limitations** |
+#### ⚖ **Comparison with standard methods**
+| **Method** | **How it works** | **Limitations** |
 |------------|-----------------|-----------------|
-| **Z-score** | Flags values beyond 3 standard deviations from the mean. | Assumes a **normal distribution**, leading to errors in skewed data. |
-| **IQR (Interquartile Range)** | Removes values outside **Q1 - 1.5×IQR** and **Q3 + 1.5×IQR**. | **Ineffective for large datasets** with non-Gaussian distributions. |
-| **Standard Deviation** | Identifies outliers as points far from the mean. | Sensitive to **extreme values**, causing misclassification. |
-| **Isolation Forest (Used in AutoClean AI)** | Uses **machine learning** to detect anomalies based on how easily a data point is isolated. | ✅ **Works on any distribution** ✅ **More accurate on large datasets** ✅ **Reduces false positives** |
+| **Z-score** | Flags values beyond 3 standard deviations from the mean | Assumes a **normal distribution**, leading to errors in skewed data |
+| **IQR** | Removes values outside **Q1 - 1.5×IQR** and **Q3 + 1.5×IQR** | **Ineffective for large datasets** with non-Gaussian distributions |
+| **Standard Deviation** | Identifies outliers as points far from the mean | Sensitive to **extreme values**, causing misclassification |
+| **Isolation Forest** | Uses **machine learning** to detect anomalies based on how easily a data point is isolated | ✅ **Works on any distribution** ✅ **More accurate on large datasets** |
 
----
-
-### Why it is superior**
-✔ **No Manual Thresholds** – Unlike Z-score or IQR, Isolation Forest **adapts dynamically** to different datasets.  
-✔ **Handles Any Data Type** – Works **even for skewed or non-Gaussian distributions**.  
-✔ **More Reliable for Large Datasets** – Traditional methods fail with **big data**, while AutoClean AI efficiently processes millions of records.  
