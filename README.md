@@ -16,9 +16,9 @@ An intelligent, AI-powered data preprocessing tool that automates data cleaning 
 - `README.md`: markdown file
 
 ## **Features** 
-### ✨ *Smart Data Type Recognition* – Automatically detects numerical and categorical data.
+### ✨ *Smart Data Type Recognition* – Automatically detects numerical and categorical data
 
-### ✨ *Intelligent Number Extraction* – Extracts numeric values from messy text columns.
+### ✨ *Intelligent Number Extraction* – Extracts numeric values from messy text columns
   
 | Messy text    | Extracted number |  
 |--------------|-----------------|  
@@ -28,7 +28,7 @@ An intelligent, AI-powered data preprocessing tool that automates data cleaning 
 | only 450$    | 450             | 
 <br>
 
-### ✨ *Year Extraction* - Extracts the year from date columns.  
+### ✨ *Year Extraction* - Extracts the year from date columns
 
 | Date        | Year |  
 |------------|------|  
@@ -38,7 +38,7 @@ An intelligent, AI-powered data preprocessing tool that automates data cleaning 
 | 18/07/2003 | 2003 |  
 <br>
 
-### ✨ *Auto-Generated Visualizations* – Instantly creates the most suitable charts for your data.
+### ✨ *Auto-Generated Visualizations* – Instantly creates the most suitable charts for your data
 
 AutoClean AI intelligently categorizes data and selects appropriate visualization techniques for clear and insightful analysis.
 
@@ -54,10 +54,10 @@ AutoClean AI intelligently categorizes data and selects appropriate visualizatio
 |  **Bar chart** | One variable is *year* or *month*          | **Bar chart**      | Displays count trends over time. |
 <br>
 
-### ✨ *Standardized Formatting* – Removes excess spaces, corrects typos, and ensures consistency.
+### ✨ *Standardized Formatting* – Removes excess spaces, corrects typos, and ensures consistency
 <br>
 
-### ✨ *Missing Value Handling* – Detects and fills missing values intelligently.
+### ✨ *Missing Value Handling* – Detects and fills missing values intelligently
 
 AutoClean AI employs a **strategic, data-driven approach** to handling missing values, ensuring data integrity while minimizing bias. The method adapts to different data types and distributions for optimal imputation.
 
@@ -73,7 +73,8 @@ AutoClean AI employs a **strategic, data-driven approach** to handling missing v
 By leveraging **smart imputation techniques**, AutoClean AI enhances data quality, ensuring **reliable analysis and accurate machine learning models**.
 <br>
 
-### ✨ *Duplicate Data Removal* – Identifies and removes duplicate records.
+### ✨ *Duplicate Data Removal* – Identifies and removes duplicate records
+<br>
 
 ### ✨ *Outlier Detection* – Detect and removes anomalies using Isolation Forest model
 This tool employs **Isolation Forest**, an **unsupervised Machine Learning algorithm** specifically designed for **highly accurate and efficient outlier detection**. Unlike traditional methods like **Z-score, IQR, or Standard Deviation**, which rely on predefined statistical thresholds, **Isolation Forest intelligently isolates anomalies by learning patterns from the data itself**
