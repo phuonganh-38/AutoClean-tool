@@ -51,10 +51,10 @@ AutoClean AI intelligently categorizes data and selects appropriate visualizatio
 |                              | Unique values > 10                                | **Histogram**      | Displays data distribution over a range |
 | **Two-variable relationship** | | | |
 |  **Boxplot**                | One variable categorical, one numerical           | **Boxplot**        | Shows distribution and outliers |
-|  **Bar chart** | One variable is *year* or *month*          | **Bar chart**      | Displays count trends over time. |
+|  **Bar chart** | One variable is *year* or *month*          | **Bar chart**      | Displays count trends over time |
 <br>
 
-### ✨ *Intelligent Text Correction - Fuzzy 
+### ✨ *Intelligent Text Correction - Fuzzy Matching
 The tool features an **advanced text correction mechanism** that automatically **fixes inconsistencies in categorical data** using **Fuzzy Matching**. This method intelligently recognizes and corrects similar but inconsistent text entries.
 
 Imagine a dataset containing customer responses to a `Country` field:
@@ -109,6 +109,6 @@ This tool employs **Isolation Forest**, an **unsupervised Machine Learning algor
 |------------|-----------------|-----------------|
 | **Z-score** | Flags values beyond 3 standard deviations from the mean | Assumes a **normal distribution**, leading to errors in skewed data |
 | **IQR** | Removes values outside **Q1 - 1.5×IQR** and **Q3 + 1.5×IQR** | **Ineffective for large datasets** with non-Gaussian distributions |
-| **Standard Deviation** | Identifies outliers as points far from the mean | Sensitive to **extreme values**, causing misclassification |
+| **Standard deviation** | Identifies outliers as points far from the mean | Sensitive to **extreme values**, causing misclassification |
 | **Isolation Forest** | Uses **machine learning** to detect anomalies based on how easily a data point is isolated | ✅ **Works on any distribution** ✅ **More accurate on large datasets** |
 
