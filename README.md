@@ -1,8 +1,11 @@
 # **AutoClean AI** - ***Clean Faster. Effort Less.***
 
+#### Link: https://autoclean-tool.streamlit.app/
 ---
 
 ## **Description**
+An intelligent, AI-powered data preprocessing tool that automates data cleaning while providing powerful visualizations for exploring variable distributions and relationships.
+<br>
 
 ## **Project structure**
 - `app.py`: main Streamlit python script u
