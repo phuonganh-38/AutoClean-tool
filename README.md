@@ -54,7 +54,7 @@ AutoClean AI intelligently categorizes data and selects appropriate visualizatio
 |  **Bar chart** | One variable is *year* or *month*          | **Bar chart**      | Displays count trends over time |
 <br>
 
-### ✨ *Intelligent Text Correction - Fuzzy Matching
+### ✨ *Intelligent Text Correction - Fuzzy Matching*
 The tool features an **advanced text correction mechanism** that automatically **fixes inconsistencies in categorical data** using **Fuzzy Matching**. This method intelligently recognizes and corrects similar but inconsistent text entries.
 
 Imagine a dataset containing customer responses to a `Country` field:
